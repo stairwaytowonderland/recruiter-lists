@@ -12,5 +12,5 @@ permissions:
 
 jobs:
   conventional-commit:
-    uses: stairwaytowonderland/actions/.github/workflows/conventional-commit.yaml@v1
+    uses: stairwaytowonderland/.github/.github/workflows/conventional-commit.yaml@v1
     secrets: inherit
