@@ -1,0 +1,16 @@
+name: Conventional Commit Check
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+
+jobs:
+  conventional-commit:
+    uses: stairwaytowonderland/actions/.github/workflows/conventional-commit.yaml@v1
+    secrets: inherit
